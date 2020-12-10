@@ -39,7 +39,6 @@ header {
 }
 
 .nav-contact {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,7 +54,7 @@ a:focus {
 
 /* logo */
 
-#logo {
+.logo {
     color: #000000;
     font-weight: 700;
     font-size: 26px;
@@ -63,7 +62,7 @@ a:focus {
     letter-spacing: 0.03em;
 }
 
-#logo-accent {
+.logo-accent {
     color: var(--accent-color);
 }
 
@@ -86,6 +85,7 @@ a:focus {
 }
 
 .order-service {
+    color: #ffffff;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -93,4 +93,106 @@ a:focus {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    /* botton*/
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
+
+
+/* Features */
+
+.features {
+    display: none;
+}
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-main-color);
+}
+
+.features-des {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--dark-sec-color);
+}
+
+
+/* What we do */
+
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.work-img {
+    width: 370px;
+}
+
+
+/* our teame */
+
+.team {
+    background-color: var(--sec-background-color);
+}
+
+.team-pchoto {
+    width: 270px;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-card {
+    background-color: var(--main-backgound-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-des {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-main-color);
+}
+
+.team-position {
+    font-weight: 400;
+    color: var(--dark-sec-color);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--dark-main-color);
+}
+
+.footer-address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-backgound-color);
+}
+
+.footer-contact {
+    color: var(--dark-add-color);
+}
+
+
+/* Portfolio */
