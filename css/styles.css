@@ -12,7 +12,6 @@ body {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     background-color: var(--main-backgound-color);
-    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -60,6 +59,7 @@ a:focus {
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
 }
 
 .logo-accent {
@@ -78,7 +78,7 @@ a:focus {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1, 37;
+    line-height: 1.37;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -195,4 +195,51 @@ a:focus {
 }
 
 
-/* Portfolio */
+/* portfolio.html */
+
+
+/*filters*/
+
+.filters-title {
+    display: none;
+}
+
+.filters-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-main-color);
+}
+
+.filters-button:hover,
+.filters-button:focus {
+    background-color: var(--accent-color);
+}
+
+
+/* portfolio */
+
+.portfolio {
+    display: none;
+}
+
+.portfolio-img {
+    width: 370px;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--dark-main-color);
+}
+
+.portfolio-des {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--dark-sec-color);
+}
