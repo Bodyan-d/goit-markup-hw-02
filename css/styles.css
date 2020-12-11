@@ -30,7 +30,7 @@ header {
 /* nav-links */
 
 .nav-link {
-    color: var(--dark-main-color);
+    color: var(--dark-sec-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -183,6 +183,15 @@ a:focus {
     background-color: var(--dark-main-color);
 }
 
+.logo-footer {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
 .footer-address {
     font-size: 14px;
     line-height: 1.71;
@@ -191,6 +200,7 @@ a:focus {
 }
 
 .footer-contact {
+    font-style: normal;
     color: var(--dark-add-color);
 }
 
@@ -216,6 +226,7 @@ a:focus {
 .filters-button:hover,
 .filters-button:focus {
     background-color: var(--accent-color);
+    color: var(--main-backgound-color);
 }
 
 
