@@ -30,7 +30,7 @@ header {
 /* nav-links */
 
 .nav-link {
-    color: var(--dark-sec-color);
+    color: var(--dark-main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -38,11 +38,11 @@ header {
 }
 
 .nav-contact {
+    color: var(--dark-sec-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--dark-sec-color);
 }
 
 a:hover,
@@ -193,6 +193,7 @@ a:focus {
 }
 
 .footer-address {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
