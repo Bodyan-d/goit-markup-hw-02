@@ -255,3 +255,7 @@ a:focus {
     letter-spacing: 0.03em;
     color: var(--dark-sec-color);
 }
+
+.stiles {
+    font: optional;
+}
