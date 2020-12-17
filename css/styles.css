@@ -14,7 +14,8 @@ body {
   background-color: var(--main-backgound-color);
 }
 
-h1 {
+h1,
+h3 {
   margin: 0;
 }
 
@@ -25,6 +26,14 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin: 0px;
+}
+
+button {
+  cursor: pointer;
 }
 
 li {
@@ -59,6 +68,9 @@ header {
 }
 
 /* nav-links */
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .header > .container {
   display: flex;
@@ -108,6 +120,8 @@ a:focus {
 
 .hero {
   background-color: var(--main-color);
+  padding-bottom: 200px;
+  margin-bottom: 95px;
 }
 
 .hero-title {
@@ -119,6 +133,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  padding: 200px 0px 30px;
 }
 
 .order-service {
@@ -127,6 +142,9 @@ a:focus {
   font-size: 16px;
   line-height: 1.9;
   display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -136,10 +154,27 @@ a:focus {
   border-radius: 4px;
 }
 
+.button-order {
+  padding: 10px 32px;
+}
+
 /* Features */
 
 .features {
+  margin-bottom: 95px;
+}
+
+.features-none {
   display: none;
+}
+
+.features-items {
+  display: flex;
+  align-items: center;
+}
+
+.features-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .features-title {
@@ -148,6 +183,7 @@ a:focus {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
   color: var(--dark-main-color);
 }
 
@@ -160,26 +196,45 @@ a:focus {
 
 /* What we do */
 
+.work {
+  margin-bottom: 80px;
+}
+
 .work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.work-images {
+  display: flex;
 }
 
 .work-img {
   width: 370px;
 }
 
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 /* our teame */
 
 .team {
   background-color: var(--sec-background-color);
+  padding-bottom: 95px;
+}
+
+.team-cards {
+  display: flex;
 }
 
 .team-pchoto {
   width: 270px;
+  margin-bottom: 30px;
 }
 
 .team-title {
@@ -188,6 +243,7 @@ a:focus {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 95px;
 }
 
 .team-card {
@@ -197,6 +253,10 @@ a:focus {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-card:not(:last-child) {
+  margin-right: 30px;
+}
+
 .team-des {
   font-weight: 500;
   font-size: 16px;
@@ -204,6 +264,12 @@ a:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-main-color);
+  margin-bottom: 10px;
+}
+
+.position-des {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .team-position {
@@ -215,6 +281,7 @@ a:focus {
 
 .footer {
   background-color: var(--dark-main-color);
+  padding-top: 60px;
 }
 
 .logo-footer {
@@ -224,6 +291,7 @@ a:focus {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .footer-address {
@@ -232,6 +300,15 @@ a:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-backgound-color);
+  padding-bottom: 60px;
+}
+
+.footer-place {
+  margin-bottom: 10px;
+}
+
+.footer-mail {
+  margin-bottom: 10px;
 }
 
 .footer-contact {
