@@ -169,7 +169,12 @@ a:focus {
   margin-bottom: 95px;
 }
 
-.features-none {
+.visually-hiden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
   display: none;
 }
 
@@ -364,8 +369,8 @@ a:focus {
   margin-bottom: 50px;
 }
 
-.filters-title,
-.portfolio {
+.visually-hiden,
+.visually-hiden {
   display: none;
 }
 
