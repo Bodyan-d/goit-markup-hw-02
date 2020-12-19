@@ -15,6 +15,7 @@ body {
 }
 
 h1,
+h2,
 h3 {
   margin: 0;
 }
@@ -27,6 +28,11 @@ ul {
 a {
   text-decoration: none;
   cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-color);
 }
 
 p {
@@ -73,6 +79,7 @@ header {
 .header,
 .header-portfolio {
   border-bottom: 1px solid #ececec;
+  padding: 30px 0px;
 }
 
 .header > .container,
@@ -92,7 +99,6 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 30px 0px;
 }
 
 .logo-item:not(:last-child) {
@@ -113,12 +119,6 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 30px 0px;
-}
-
-a:hover,
-a:focus {
-  color: var(--accent-color);
 }
 
 /* Hero */
@@ -126,6 +126,7 @@ a:focus {
 .hero {
   background-color: var(--main-color);
   padding-bottom: 200px;
+  padding-top: 200px;
   margin-bottom: 95px;
 }
 
@@ -138,7 +139,7 @@ a:focus {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 200px 0px 30px;
+  padding: 0px 0px 30px;
 }
 
 .order-service {
@@ -166,7 +167,7 @@ a:focus {
 /* Features */
 
 .features {
-  margin-bottom: 95px;
+  padding-bottom: 95px;
 }
 
 .visually-hiden {
@@ -207,7 +208,7 @@ a:focus {
 /* What we do */
 
 .work {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .work-title {
@@ -236,6 +237,7 @@ a:focus {
 .team {
   background-color: var(--sec-background-color);
   padding-bottom: 95px;
+  padding-top: 95px;
 }
 
 .team-cards {
@@ -253,7 +255,7 @@ a:focus {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 95px;
+  margin-bottom: 50px;
 }
 
 .team-card {
@@ -292,6 +294,7 @@ a:focus {
 .footer {
   background-color: var(--dark-main-color);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-footer {
@@ -305,12 +308,12 @@ a:focus {
 }
 
 .footer-address {
+  margin-top: 20px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-backgound-color);
-  padding-bottom: 60px;
 }
 
 .footer-place {
@@ -331,7 +334,7 @@ a:focus {
 /*filters*/
 
 .filters {
-  margin-bottom: 95px;
+  padding-bottom: 95px;
 }
 
 .filters-title {
@@ -406,19 +409,22 @@ a:focus {
   margin-bottom: 0px;
 }
 
+.portfolio-des {
+  padding: 20px 24px;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--dark-main-color);
-  padding: 0px 24px 4px;
+  padding-bottom: 4px;
 }
 
-.portfolio-des {
+.portfolio-info {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--dark-sec-color);
-  padding: 0px 24px 20px;
 }
