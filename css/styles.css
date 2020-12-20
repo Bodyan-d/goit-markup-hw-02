@@ -127,7 +127,6 @@ header {
   background-color: var(--main-color);
   padding-bottom: 200px;
   padding-top: 200px;
-  margin-bottom: 95px;
 }
 
 .hero-title {
@@ -168,6 +167,7 @@ header {
 
 .features {
   padding-bottom: 95px;
+  padding-top: 95px;
 }
 
 .visually-hiden {
