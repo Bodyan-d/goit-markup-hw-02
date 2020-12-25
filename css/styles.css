@@ -421,20 +421,24 @@ header {
   display: flex;
 }
 
-.customer-link:not(:last-child) {
+.customer-logo:not(:last-child) {
   margin-right: 30px;
 }
 
-.customers-link {
+.customer-link {
+  color: #afb1b8;
+  padding: 22px 60px;
+}
+
+.link-inner {
+  color: #afb1b8;
+  padding: 25px 45px;
 }
 
 .customer-logo {
+  /*link*/
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  color: #afb1b8;
-
-  width: 170px;
-  height: 90px;
 
   display: flex;
   justify-content: center;
@@ -442,6 +446,7 @@ header {
 }
 
 .customer-logo:hover {
+  /*link*/
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
